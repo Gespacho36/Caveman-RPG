@@ -1,12 +1,14 @@
-[gd_scene load_steps=2 format=3 uid="uid://cuhwa61tto4ow"]
+[gd_scene load_steps=3 format=3 uid="uid://cuhwa61tto4ow"]
 
-[ext_resource type="Texture2D" path="res://image0.png" id="1_wtcfe"]
+[ext_resource type="Script" uid="uid://c4fs5hlb7svw3" path="res://Scripts/node_2d.gd" id="1_v1qfn"]
+[ext_resource type="Texture2D" uid="uid://co0a7wlwi47re" path="res://assets/image0.png" id="2_hh5uf"]
 
 [node name="Node2D" type="Node2D"]
+script = ExtResource("1_v1qfn")
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 
 [node name="Image0" type="Sprite2D" parent="."]
-position = Vector2(9.5, 8.5)
-scale = Vector2(0.275, 0.275)
-texture = ExtResource("1_wtcfe")
+position = Vector2(3999.5, 3171)
+scale = Vector2(226.925, 188.35)
+texture = ExtResource("2_hh5uf")
