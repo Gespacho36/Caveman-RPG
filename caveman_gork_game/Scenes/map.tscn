@@ -1,6 +1,6 @@
-[gd_scene load_steps=11 format=4 uid="uid://ccde22r5p6fed"]
+[gd_scene load_steps=11 format=4 uid="uid://bgtgh7fc4nsva"]
 
-[ext_resource type="Texture2D" path="res://Tilesets/overworld.png" id="1_c7s6e"]
+[ext_resource type="Texture2D" uid="uid://ce5u4tnjsd0cr" path="res://Tilesets/overworld.png" id="1_c7s6e"]
 [ext_resource type="PackedScene" uid="uid://cjlagppcdr2r8" path="res://Scenes/gork.tscn" id="2_wijl4"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_p5pve"]
