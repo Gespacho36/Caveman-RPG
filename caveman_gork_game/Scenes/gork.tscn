@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://cjlagppcdr2r8"]
+
+[ext_resource type="Script" uid="uid://b5jrjbd3gtbi6" path="res://Scripts/gork.gd" id="1_33crw"]
+[ext_resource type="Texture2D" uid="uid://xdpd6h8yw8yl" path="res://assets/Caveman.png" id="1_p156w"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_33crw"]
+radius = 64.0312
+
+[node name="Gork" type="CharacterBody2D"]
+collision_mask = 254
+script = ExtResource("1_33crw")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 35)
+shape = SubResource("CircleShape2D_33crw")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("1_p156w")
