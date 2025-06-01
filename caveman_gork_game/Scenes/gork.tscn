@@ -4,14 +4,14 @@
 [ext_resource type="Texture2D" uid="uid://xdpd6h8yw8yl" path="res://assets/Caveman.png" id="1_p156w"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_33crw"]
-radius = 64.0312
+radius = 11.0
 
 [node name="Gork" type="CharacterBody2D"]
 collision_mask = 254
 script = ExtResource("1_33crw")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(0, 35)
+position = Vector2(0, 8)
 shape = SubResource("CircleShape2D_33crw")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
