@@ -15,7 +15,8 @@ position = Vector2(0, 35)
 shape = SubResource("CircleShape2D_33crw")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-scale = Vector2(0.5, 0.5)
+scale = Vector2(0.1, 0.1)
 texture = ExtResource("1_p156w")
 
 [node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(5, 5)
