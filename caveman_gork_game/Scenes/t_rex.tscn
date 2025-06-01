@@ -2,15 +2,16 @@
 
 [ext_resource type="Texture2D" uid="uid://djw26lywf1chj" path="res://assets/d8thdu7-ea9067d5-b46e-4d83-9d44-8c76241f08d5.png" id="1_8cmbg"]
 
-[sub_resource type="CircleShape2D" id="CircleShape2D_aw8fg"]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_8cmbg"]
+size = Vector2(45, 32.5)
 
 [node name="T-Rex" type="CharacterBody2D"]
 collision_layer = 4
 collision_mask = 3
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-position = Vector2(1468, 1002)
+scale = Vector2(0.07, 0.07)
 texture = ExtResource("1_8cmbg")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-shape = SubResource("CircleShape2D_aw8fg")
+shape = SubResource("RectangleShape2D_8cmbg")
