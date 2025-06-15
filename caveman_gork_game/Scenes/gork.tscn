@@ -6,7 +6,7 @@
 [sub_resource type="CircleShape2D" id="CircleShape2D_33crw"]
 radius = 11.0
 
-[node name="Gork" type="CharacterBody2D"]
+[node name="Gork" type="CharacterBody2D" groups=["gork"]]
 collision_mask = 254
 script = ExtResource("1_33crw")
 

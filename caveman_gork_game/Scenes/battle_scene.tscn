@@ -1,3 +1,10 @@
-[gd_scene load_steps=0 format=3 uid="uid://gg20i4qqlwkh"]
+[gd_scene load_steps=2 format=3 uid="uid://gg20i4qqlwkh"]
+
+[ext_resource type="Texture2D" uid="uid://do7unu5rjqji8" path="res://assets/battle.jpg" id="1_b25br"]
 
 [node name="BattleScene" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(557, 337.5)
+scale = Vector2(0.892188, 0.9125)
+texture = ExtResource("1_b25br")

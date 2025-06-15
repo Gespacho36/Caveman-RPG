@@ -1,13 +1,15 @@
-[gd_scene load_steps=3 format=3 uid="uid://cmeke0td7c6e4"]
+[gd_scene load_steps=4 format=3 uid="uid://cmeke0td7c6e4"]
 
 [ext_resource type="Texture2D" uid="uid://djw26lywf1chj" path="res://assets/d8thdu7-ea9067d5-b46e-4d83-9d44-8c76241f08d5.png" id="1_8cmbg"]
+[ext_resource type="Script" uid="uid://nwalw7lnmxv3" path="res://Scenes/t_rex.gd" id="1_aw8fg"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_8cmbg"]
 size = Vector2(45, 32.5)
 
-[node name="T-Rex" type="CharacterBody2D"]
+[node name="T-Rex" type="Area2D" groups=["enemy"]]
 collision_layer = 4
-collision_mask = 3
+collision_mask = 6
+script = ExtResource("1_aw8fg")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 scale = Vector2(0.07, 0.07)
